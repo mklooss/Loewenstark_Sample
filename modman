@@ -1,0 +1,4 @@
+src/app/code/local/Loewenstark/Sample                             app/code/local/Loewenstark/Sample
+src/app/etc/modules/Loewenstark_Sample.xml                        app/etc/modules/Loewenstark_Sample.xml
+src/app/etc/modules/Deactivated_Modul.xml                         app/etc/modules/Deactivated_Modul.xml
+src/move.php                                                      move.php

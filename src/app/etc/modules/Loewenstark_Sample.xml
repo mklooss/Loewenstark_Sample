@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_Sample>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog />
+                <Mage_Core />
+                <Mage_Admin />
+                <FireGento_MageSetup />
+                <AvS_FastSimpleImport />
+                <Mage_Page />
+            </depends>
+        </Loewenstark_Sample>
+    </modules>
+</config>

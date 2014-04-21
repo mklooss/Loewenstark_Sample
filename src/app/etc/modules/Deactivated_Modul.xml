@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Sample XML file to disable some core modules
+**/
+//-->
+<config>
+    <modules>
+	<!-- /*
+        <Mage_Usa>
+            <active>false</active>
+        </Mage_Usa>
+        <Mage_PaypalUk>
+            <active>false</active>
+        </Mage_PaypalUk>
+        <Mage_GoogleCheckout>
+            <active>false</active>
+        </Mage_GoogleCheckout>
+        <Mage_Poll>
+            <active>false</active>
+        </Mage_Poll>
+        <Mage_Tag>
+            <active>false</active>
+        </Mage_Tag>
+        <Mage_ProductAlert>
+            <active>false</active>
+        </Mage_ProductAlert>
+        <Mage_Bundle>
+            <active>false</active>
+        </Mage_Bundle>
+        <Mage_Authorizenet>
+            <active>false</active>
+        </Mage_Authorizenet>
+        <Mage_Centinel>
+            <active>false</active>
+        </Mage_Centinel>
+        <Mage_Compiler>
+            <active>false</active>
+        </Mage_Compiler>
+        <Mage_Downloadable>
+            <active>false</active>
+        </Mage_Downloadable>
+        <Mage_XmlConnect>
+            <active>false</active>
+        </Mage_XmlConnect>
+        <Mage_Sendfriend>
+            <active>false</active>
+        </Mage_Sendfriend>
+		<Phoenix_Moneybookers>
+            <active>false</active>
+        </Phoenix_Moneybookers>
+		*/ //-->
+    </modules>
+</config>
