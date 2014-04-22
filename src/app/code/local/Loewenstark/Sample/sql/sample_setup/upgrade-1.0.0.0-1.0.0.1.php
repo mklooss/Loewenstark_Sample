@@ -98,8 +98,8 @@ $config = array(
     'general/imprint/swift' => $swift,
     'general/imprint/iban' => $iban,
     'catalog/vertnav/hide_top' => 0,
-	'cataloginventory/options/show_out_of_stock' => 1,
-	'catalog/review/allow_guest' => 0
+    'cataloginventory/options/show_out_of_stock' => 1,
+    'catalog/review/allow_guest' => 0
 );
 
 foreach($config as $key=>$value)
