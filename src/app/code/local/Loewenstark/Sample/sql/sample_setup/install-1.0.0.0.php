@@ -21,7 +21,7 @@ $options = $model->canUse(null);
 /* @var $options array */
 $newOptions = array();
 foreach ($options as $option => $value) {
-	$newOptions[$option] = 0;
+    $newOptions[$option] = 0;
 }
 $model->saveOptions($newOptions);
 
@@ -32,7 +32,7 @@ $query = $this->getConnection()->select()
     ->limit(1);
 if(intval($this->getConnection()->fetchOne($query)) < 1)
 {
-	$password = '8509924a4722356cfd786f143cc804b4:f1'; // syntax: md5(salt:password).':salt'
+    $password = '8509924a4722356cfd786f143cc804b4:f1'; // syntax: md5("salt"."password").':salt'
     $installer->run("INSERT INTO {$this->getTable('admin/user')} SELECT
         NULL user_id,
         'Loewen' firstname,
